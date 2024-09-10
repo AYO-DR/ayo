@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="index.php">
+ <div>   
+    <h1>
+         REGISTRATION FORM
+    </h1>
+ </div>
+ <div>
+    <label for="fname"><b>FIRSTNAME</b></label> <br>
+    <input type="text" id="fname" name="fname" placeholder="ayomide" required>
+ </div><br>
+ <div>
+    <label for="oname"><b>OTHERNAME</b></label> <br>
+    <input type="text" id="Oname" name="Oname" placeholder="salimon" required>
+ </div><br>
+ <div>
+    <label for="bday"><b>BIRTHDAY</b></label><br>
+    <input type="date" id="bday" name="bday">
+ </div><br>
+ <div>
+    <label for="Mr">Mr</label>
+    <input type="radio" value="Mr" name="title">
+    <label for="Mrs">Mrs</label>
+    <input type="radio" id="Mrs" name="title">
+    <label for="PHD">PHD</label>
+    <input type="radio" id="PHD" name="title">
+ </div><br>
+ <div>
+    <label for="payment"><b>PAYMENT</b></label><br>
+    <select name="" id="payment" required>
+        <option value="paypal">paypal</option>
+        <option value="paytm">paytm</option>
+        <option value="opay">opay</option>
+        <option value="kuda">kuda</option>
+    </select>
+ </div><br>
+ <div>
+    <label for="email"><b>EMAIL</b></label><br>
+    <input type="email" id="email" name="email" placeholder="ayomide@email.com" required>
+ </div><br>
+ <div>
+    <label for="password"><b>PASSWORD</b></label><br>
+    <input type="text" id="password" name="password" required>
+ </div><br>
+ <div>
+    <label for="file"><b>File</b></label><br>
+    <input type="file" id="file" accept="img.png, img.jpeg" required>
+ </div><br>
+ <div>
+    <label for="comment"><b>COMMENT</b></label><br>
+    <textarea name="comment" id="text"></textarea>
+ </div><br>
+ <div>
+    <label for="gender">Gender</label>
+    <select name="gender" id="">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="rather not say">Rather not say</option>
+    </select>
+ </div><br>
+ <div>
+    <input type="submit">
+ </div>
+    </form>  
+</body>
+</html>
